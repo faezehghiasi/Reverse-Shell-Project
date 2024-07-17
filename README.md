@@ -20,7 +20,8 @@ GCC (GNU Compiler Collection)
 
 3- Compile the server code:
 
-```bash gcc server.c -o server```
+```bash
+gcc server.c -o server```
 
 ### Client :
 
