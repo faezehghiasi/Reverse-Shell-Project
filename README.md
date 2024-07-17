@@ -14,11 +14,11 @@ GCC (GNU Compiler Collection)
 # Building the Code
 ### Server :
 
-1- Open a terminal.
+1- -Open a terminal.
 
-2- Navigate to the directory containing server.c.
+2- -Navigate to the directory containing server.c.
 
-3- Compile the server code:
+3- -Compile the server code:
 
 ```bash
 gcc server.c -o server
@@ -32,7 +32,9 @@ gcc server.c -o server
 
 3- Compile the client code:
 
-```bash gcc client.c -o client```
+```bash 
+gcc client.c -o client
+```
 
 # Running the Programs
 ### Server :
@@ -43,7 +45,9 @@ To run the server, specify the desired port number:
 
 For example, to run the server on port 3000:
 
-```bash ./server 3000```
+```bash
+./server 3000
+```
 
 ### Client :
 
@@ -53,7 +57,9 @@ To run the client, specify the server's IP address and port:
 
 For example, to connect to a server at 127.0.0.1 on port 3000:
 
-```bash ./client 3000 127.0.0.1```
+```bash
+./client 3000 127.0.0.1
+```
 
 # Notes
 .Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
