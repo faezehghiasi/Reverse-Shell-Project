@@ -6,7 +6,6 @@ The server then receives the output of these commands.
 # Description
 A reverse shell is a type of shell where the target machine opens a connection to an attacker's machine, allowing the attacker to execute commands on the target system. In this project, the server acts as the attacker's machine, and the client acts as the target machine. The server sends commands to the client, which executes them and sends back the results. This project demonstrates the basic principles of socket programming and remote command execution.
 
-# Getting Started
 # Prerequisites
 A Unix-like operating system (Linux, macOS, etc.)
 GCC (GNU Compiler Collection)
@@ -55,4 +54,5 @@ For example, to connect to a server at 127.0.0.1 on port 3000:
 
 # Notes
 .Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
+
 .Use this code responsibly and only on networks and systems where you have permission to do so.
