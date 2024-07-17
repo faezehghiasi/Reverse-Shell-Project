@@ -41,7 +41,7 @@ gcc client.c -o client
 
 To run the server, specify the desired port number:
 
-./server <port_number>
+> ./server <port_number>
 
 For example, to run the server on port 3000:
 
@@ -53,7 +53,7 @@ For example, to run the server on port 3000:
 
 To run the client, specify the server's IP address and port:
 
-./client <port_number> <server_ip>
+> ./client <port_number> <server_ip>
 
 For example, to connect to a server at 127.0.0.1 on port 3000:
 
