@@ -8,6 +8,7 @@ A reverse shell is a type of shell where the target machine opens a connection t
 
 # Prerequisites
 A Unix-like operating system (Linux, macOS, etc.)
+
 GCC (GNU Compiler Collection)
 
 # Building the Code
