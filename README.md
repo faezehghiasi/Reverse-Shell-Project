@@ -12,28 +12,16 @@ A Unix-like operating system (Linux, macOS, etc.)
 GCC (GNU Compiler Collection)
 
 ## Building the Code
-### Server :
+You can use the provided Makefile to build the server and client programs.
 
 **1-** Open a terminal.
 
-**2-** Navigate to the directory containing server.c.
+**2-** Navigate to the directory containing the Makefile.
 
-**3-** Compile the server code:
+**3-** Run the following command to build both the server and client:
 
 ```bash
-gcc server.c -o server
-```
-
-### Client :
-
-**1-** Open a terminal.
-
-**2-** Navigate to the directory containing client.c.
-
-**3-** Compile the client code:
-
-```bash 
-gcc client.c -o client
+make
 ```
 
 ## Running the Programs
