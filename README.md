@@ -20,7 +20,7 @@ GCC (GNU Compiler Collection)
 
 3- Compile the server code:
 
-```gcc server.c -o server```
+```bash gcc server.c -o server```
 
 ### Client :
 
@@ -30,7 +30,7 @@ GCC (GNU Compiler Collection)
 
 3- Compile the client code:
 
-```gcc client.c -o client```
+```bash gcc client.c -o client```
 
 # Running the Programs
 ### Server :
@@ -41,7 +41,7 @@ To run the server, specify the desired port number:
 
 For example, to run the server on port 3000:
 
-```./server 3000```
+```bash ./server 3000```
 
 ### Client :
 
@@ -51,7 +51,7 @@ To run the client, specify the server's IP address and port:
 
 For example, to connect to a server at 127.0.0.1 on port 3000:
 
-```./client 3000 127.0.0.1```
+```bash ./client 3000 127.0.0.1```
 
 # Notes
 .Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
