@@ -9,7 +9,7 @@ A reverse shell is a type of shell where the target machine opens a connection t
 ## Requirements
 A Unix-like operating system (Linux, macOS, etc.)
 
-GCC (GNU Compiler Collection)
+GCC (x.y.z)
 
 ## Building the Code
 You can use the provided Makefile to build the server and client programs.
@@ -50,6 +50,6 @@ For example, to connect to a server at 127.0.0.1 on port 3000:
 ```
 
 ## Notes
-.Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
+* Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
 
-.Use this code responsibly and only on networks and systems where you have permission to do so.
+* Use this code responsibly and only on networks and systems where you have permission to do so.
