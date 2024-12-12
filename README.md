@@ -1,22 +1,30 @@
 # Reverse-Shell-Project
-This project implements a simple reverse shell using C. It consists of two programs: a server and a client. 
-The server listens for incoming connections, while the client connects to the server and executes commands received from the server. 
-The server then receives the output of these commands.
+This project implements a simple reverse shell using C. It includes two programs: a **server** and a **client**. The server listens for incoming connections, while the client connects to the server and executes received commands, sending back the output.
 
-## Description
-A reverse shell is a type of shell where the target machine opens a connection to an attacker's machine, allowing the attacker to execute commands on the target system. In this project, the server acts as the attacker's machine, and the client acts as the target machine. The server sends commands to the client, which executes them and sends back the results. This project demonstrates the basic principles of socket programming and remote command execution.
+---
 
-## Requirements
-A Unix-like operating system (Linux, macOS, etc.)
+## 📜 Description
+A reverse shell is a type of shell where the target machine opens a connection to an attacker's machine, allowing the attacker to execute commands remotely. In this project:
 
-GCC (x.y.z)
+- **Server:** Acts as the attacker's machine, sending commands to the client.
+- **Client:** Acts as the target machine, executing commands and returning results.
 
-## Building the Code
-You can use the provided Makefile to build the server and client programs.
+This project demonstrates core concepts of **socket programming** and **remote command execution** in C.
+
+---
+
+## ✅ Requirements
+- A Unix-like operating system (Linux, macOS, etc.)
+- **GCC** compiler
+
+---
+
+## 🚀 Building the Code
+Use the provided `Makefile` to compile both programs.
 
 **1-** Open a terminal.
 
-**2-** Navigate to the directory containing the Makefile.
+**2-** Navigate to the project directory containing the `Makefile`.
 
 **3-** Run the following command to build both the server and client:
 
@@ -24,32 +32,46 @@ You can use the provided Makefile to build the server and client programs.
 make
 ```
 
-## Running the Programs
-### Server :
+---
 
+## 🔧 Running the Programs
+### **Server:**
 To run the server, specify the desired port number:
 
-> ./server <port_number>
+```bash
+./server <port_number>
+```
 
-For example, to run the server on port 3000:
-
+**Example:**
 ```bash
 ./server 3000
 ```
 
-### Client :
+### **Client:**
+To run the client, provide the server's IP address and port number:
 
-To run the client, specify the server's IP address and port:
+```bash
+./client <port_number> <server_ip>
+```
 
-> ./client <port_number> <server_ip>
-
-For example, to connect to a server at 127.0.0.1 on port 3000:
-
+**Example:**
 ```bash
 ./client 3000 127.0.0.1
 ```
 
-## Notes
-* Ensure that the server and client are running on the same network or that the necessary ports are open if running on different networks.
+---
 
-* Use this code responsibly and only on networks and systems where you have permission to do so.
+## ⚠️ Important Notes
+- Ensure the server and client run on the same network or configure port forwarding if connecting across networks.
+- Use this project responsibly **only** on authorized systems and networks.
+
+---
+
+## ⭐ How to Support
+If you found this project useful, consider giving it a **Star** ⭐ on GitHub! Contributions and suggestions are always welcome!
+
+**[➡ Visit the Project Repository](#)**
+
+---
+
+
