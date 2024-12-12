@@ -70,8 +70,6 @@ To run the client, provide the server's IP address and port number:
 ## ⭐ How to Support
 If you found this project useful, consider giving it a **Star** ⭐ on GitHub! Contributions and suggestions are always welcome!
 
-**[➡ Visit the Project Repository](#)**
-
 ---
 
 
