@@ -3,7 +3,7 @@ This project implements a simple reverse shell using C. It includes two programs
 
 ---
 
-## 📜 Description
+## Description
 A reverse shell is a type of shell where the target machine opens a connection to an attacker's machine, allowing the attacker to execute commands remotely. In this project:
 
 - **Server:** Acts as the attacker's machine, sending commands to the client.
@@ -13,13 +13,13 @@ This project demonstrates core concepts of **socket programming** and **remote c
 
 ---
 
-## ✅ Requirements
+## Requirements
 - A Unix-like operating system (Linux, macOS, etc.)
 - **GCC** compiler
 
 ---
 
-## 🚀 Building the Code
+## Building the Code
 Use the provided `Makefile` to compile both programs.
 
 **1-** Open a terminal.
@@ -61,14 +61,9 @@ To run the client, provide the server's IP address and port number:
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 - Ensure the server and client run on the same network or configure port forwarding if connecting across networks.
 - Use this project responsibly **only** on authorized systems and networks.
-
----
-
-## ⭐ How to Support
-If you found this project useful, consider giving it a **Star** ⭐ on GitHub! Contributions and suggestions are always welcome!
 
 ---
 
